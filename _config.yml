@@ -2,8 +2,8 @@ title: codezip
 description: My Personal Codezip
 author: codezip
 github: https://github.com/codezip
-about: I am Software Developer.
-disqus_shortname: stackproblems
+about: Data Engineer / Software Engineer
+disqus_shortname: codezip
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/avatar.jpg
 
@@ -18,8 +18,6 @@ collections:
 social:
     - icon: fa-facebook
       link: "https://www.facebook.com/codezip"
-    - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
     - icon: fa-stack-exchange
       link: "#"
     - icon: fa-github
@@ -27,7 +25,7 @@ social:
 
 share:
   twitter_username: codezip
-  fb_appid: 1749788565247320
+  fb_appid: 
 
 urls:
     - text: About Me
