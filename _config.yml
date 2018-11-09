@@ -1,0 +1,55 @@
+title: codezip
+description: My Personal Codezip
+author: codezip
+github: https://github.com/codezip
+about: I am Software Developer.
+disqus_shortname: stackproblems
+google_analytics: UA-XXXXXXXX-Y
+avatar_url: /static/img/avatar.jpg
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "https://www.facebook.com/codezip"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/summonagus"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/codezip"
+
+share:
+  twitter_username: codezip
+  fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Posts
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://codezip.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
