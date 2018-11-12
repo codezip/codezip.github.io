@@ -5,17 +5,23 @@ permalink: /about/
 ---
 
 
-경력회사 
+### Skill
+ - Java
+ - Framework
+ - ElasticSearch
+ - Kafka
 
- **SNOW**
+### Company
+
+ **SNOW Corporation** (Present)
   - Cake App Service
   - Data Lake Platform 
   
- **LF**
+ **LF Corporation**
   - LFmall Commerce Platform
   - ElasticSearch Search Service 
  
- **Nuvent** 
+ **Nuvent Inc** 
   - Shareat App Service  
   - Data/Search Platform
   - API Gateway

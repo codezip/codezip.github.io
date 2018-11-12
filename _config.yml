@@ -4,7 +4,7 @@ author: codezip
 github: https://github.com/codezip
 about: Data Engineer / Software Engineer
 disqus_shortname: codezip
-google_analytics: UA-XXXXXXXX-Y
+google_analytics: b7b8c32b891088
 avatar_url: /static/img/avatar.jpg
 
 enableTags: true
@@ -30,8 +30,8 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: My Posts
-      url: /projects/
+    - text: My category
+      url: /category/   
     - text: XML Feed
       url: /feed.xml
 
