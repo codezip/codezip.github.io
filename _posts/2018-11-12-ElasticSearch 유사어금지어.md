@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ElasticSearch 유사어/금지어"
-date:   2018-11-10 05:10:03 +0900
+date:   2018-11-12 05:10:03 +0900
 categories: [ElasticSearch]
 ---
 
