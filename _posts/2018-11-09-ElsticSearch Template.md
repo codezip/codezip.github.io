@@ -28,5 +28,5 @@ product로 생성되는 index에 shard를 8개 생성한다.
 
 #### Template 삭제
 ```bash
-	curl -XDELETE http://121.50.21.214:9201/_template/template_product?pretty
+	curl -XDELETE http://localhost:9201/_template/template_product?pretty
 ```
