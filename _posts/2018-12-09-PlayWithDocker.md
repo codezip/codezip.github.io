@@ -16,6 +16,8 @@ Docker를 설치할 필요가 없음.
 
 브라우저에서 Docker 명령어를 실행 할 수 있다. 
 
+![image](../static/pds/pwd.png)
+
 로컬에 환경이 어려운 상황에서 Docker를 간단히 테스트 할 수 있어서 좋은 듯 하다. 
 
 
