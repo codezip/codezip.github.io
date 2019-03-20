@@ -5,13 +5,8 @@ permalink: /about/
 ---
 
 
-### Skill
- - Java
- - Framework
- - ElasticSearch
- - Kafka
-
 ### Company
+---
 
  **SNOW Corporation** (Present)
   - Cake App Service
@@ -34,5 +29,57 @@ permalink: /about/
  **DATASOLUTION/OPENBASE**
   - Search Engine Solution
 
+
+### Interests
+---
+ - Playing video Game(Nintendo Switch)
+ - Being a dad and Spending time with My daughter
+ - Watching TV Drama (Netfflix)
+
+
+
+### Skills & Expertise
+---
+
+**Programming Languages**
+ - Java
+ - Scala
+ - JavaScript
+ - C
+ 
+
+ **Software Tools**
+ - ElasticSearch
+ - Kafka
+ - Google Cloud( BigQuery, Cloud Function, Firebase)
+ - mysql
+ - zsh
+ - Git
+ - Docker
+ - VIM
+ - Redis
+ - AWS
+ 
+
+ **Markup & Front**
+ - Markdown
+ - Mustache
+ - 
+
+ **Frameworks & APIs**
+ - Spring 
+ - Spring Boot
+ - Spring Cloud (API gateway)
+ - Express
+ - Node.js
+ - LINE Message API
+ - 
+
+ **Business Domain**
+  - Pay
+  - Search
+  - English Education
+  - E-commerce
+  
 
 email: babootaeng[at]gmail.com
