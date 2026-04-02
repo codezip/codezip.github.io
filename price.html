@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>골드바 가격 비교 모니터</title>
+    <style>
+        body { margin: 0; padding: 0; display: flex; height: 100vh; overflow: hidden; }
+        .container { display: flex; width: 100%; height: 100%; }
+        iframe { width: 50%; height: 100%; border: 1px solid #ccc; }
+        .header { position: absolute; top: 0; width: 100%; background: rgba(0,0,0,0.7); color: white; text-align: center; padding: 5px 0; z-index: 10; }
+    </style>
+</head>
+<body>
+    <div class="header">삼성금거래소(좌) vs 한국금거래소(우) 비교
+        <a href="https://www.koreagoldx.co.kr/product/list?categoryNo=5" target="_blank" class="korea">한국금거래소 새창열기</a>
+   
+    </div>
+    <div class="container">
+        <iframe src="https://m.ssgold.co.kr/category/%EA%B8%B0%EB%B3%B8-%EA%B3%A8%EB%93%9C%EB%B0%94/164/"></iframe>
+        
+        <iframe src="https://m.koreagoldx.co.kr/product/list?categoryNo=5"></iframe>
+        <iframe src="https://m.goodgold.co.kr/shop/list-101010"></iframe>
+    </div>
+</body>
+</html>
