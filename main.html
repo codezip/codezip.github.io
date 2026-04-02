@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>골드바 4분할 모니터링</title>
+    <style>
+        /* 1. 기본 스타일 리셋 */
+        body, html { margin: 0; padding: 0; height: 100vh; font-family: 'Pretendard', sans-serif; overflow: hidden; display: flex; flex-direction: column; }
+
+        /* 2. 헤더 스타일 */
+        .header {
+            height: 50px;
+            background: #1a1a1a;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+        .nav-links a {
+            color: #ffca28;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 13px;
+            border: 1px solid #ffca28;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+        .nav-links a:hover { background: #ffca28; color: #000; }
+
+        /* 3. 십자가 4분할 그리드 핵심 설정 */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* 좌우 2열 */
+            grid-template-rows: 1fr 1fr;    /* 상하 2행 */
+            flex: 1;                        /* 남은 화면 꽉 채우기 */
+            gap: 2px;                       /* 십자가 선 두께 */
+            background-color: #444;         /* 십자가 선 색상 */
+        }
+
+        .pane {
+            position: relative;
+            background: white;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .label {
+            background: #f1f1f1;
+            padding: 5px;
+            font-size: 11px;
+            text-align: center;
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <strong>GoldBar 4-Way Monitor</strong>
+        <nav class="nav-links">
+            <button onclick="location.reload()" style="cursor:pointer;">새로고침</button>
+            <a href="./index.html" class="korea">골드바 비교</a> 
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="pane">
+            <div class="label">삼성금거래소</div>
+            <iframe src="https://m.ssgold.co.kr"></iframe>
+        </div>
+        
+        <div class="pane">
+            <div class="label">한국금거래소</div>
+            <iframe src="https://m.koreagoldx.co.kr"></iframe>
+        </div>
+
+        <div class="pane">
+            <div class="label">모아금거래소</div>
+            <iframe src="https://m.goodgold.co.kr"></iframe>
+        </div>
+
+        <div class="pane">
+            <div class="label">골드사랑</div>
+            <iframe src="https://gold-love.co.kr/"></iframe>
+        </div>
+    </div>
+
+</body>
+</html>
